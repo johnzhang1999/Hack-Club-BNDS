@@ -17,7 +17,7 @@ GitHub is a website used by millions of programmers to collaborate on code. We�
 1. Open https://github.com/join (https://github.com/join) in a new tab and ﬁll in: your username (if you can’t decide on one, your ﬁrst and last name are a solid choice) email (you’ll be verifying your email in the next step) password (you’ll need to remember this!) 
 2. Verify your email by checking the inbox of the email you used 
 3. Open https://gh.hackclub.com (https://gh.hackclub.com) in a new tab and star the project by clicking the button on the top right that looks like this:
-![](media/14925122494367/14925126851151.jpg)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/media/14925122494367/14925126851151.jpg)
 
 Pro tip: if you want a username that’s already taken, you can often get it by contacting GitHub (https://github.com/contact) (this is actually how we got the hackclub username on GitHub). Make sure that the username isn’t actively used by another user before reaching out. Click here (https://help.github.com/articles/name-squatting- policy/) for more details.
 
@@ -26,11 +26,11 @@ GitHub allows us to host our website using a service called GitHub Pages. This m
 
 1. Go to https://github.com/new (https://github.com/new) 
 2. Under “Repository name” write USERNAME.github.io (replace USERNAME with your actual username). You have to name your repository this in order for GitHub Pages to work correctly (we’ll talk more about GitHub Pages later)
-![](media/14925122494367/14925127220646.jpg)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/media/14925122494367/14925127220646.jpg)
 
 
 3. Yay! You’ve created your very ﬁrst repository! Now, copy the “HTTPS link” at the top. You will need this link for the next step.
 
-![](media/14925122494367/14925127517053.jpg)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/media/14925122494367/14925127517053.jpg)
 
 
