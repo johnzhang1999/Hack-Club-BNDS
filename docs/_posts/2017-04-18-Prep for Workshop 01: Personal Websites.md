@@ -1,9 +1,6 @@
 # Preparation Material
 Author: John Zhang & Hack Club San Francisco
 Copyright: Hack Club BNDS
-## Content
-
-[TOC]
 
 ## Overview
 In this tutorial we will guide you through the process of setting up your coding and publishing environment. 
