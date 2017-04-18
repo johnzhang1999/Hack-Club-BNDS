@@ -9,7 +9,7 @@ We will be using Github ~~and Cloud9~~ (Cloud9 was what hack club officially rec
 
 Please be sure to set these up appropriately before coming to our first meeting so that we can have more time working on the real stuff. If you have questions, feel free to reach out to us in the WeChat group. Have fun! :)
 
-
+<!--more-->
 ## Part I: GitHub Account
 
 ### 1) Signing Up for GitHub
@@ -68,7 +68,7 @@ Note: By cloning a repository, you have created a mirror (or downloaded) that re
 
 ## Final Words
 
-**Congratulations! You have made a big step! **
+**Congratulations!** You have made a big step! 
 
 You are done with all the setup you need for the semester and maybe for the rest of your computer science life. GitHub will be a good friend as we are going on our way and working on our projects. 
 
