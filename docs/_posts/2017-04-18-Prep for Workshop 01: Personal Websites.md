@@ -21,6 +21,7 @@ GitHub is a website used by millions of programmers to collaborate on code. We�
 1. Open [https://github.com/join](https://github.com/join) in a new tab and ﬁll in: your username (if you can’t decide on one, your ﬁrst and last name are a solid choice) email (you’ll be verifying your email in the next step) password (you’ll need to remember this!) 
 
 2. Verify your email by checking the inbox of the email you used 
+
 3. Big thanks for [Hack Club San Francisco](http://hackclub.com) of providing BNDS this amazing opportunity to run the club. Let's support them on GitHub! Open [https://gh.hackclub.com](https://gh.hackclub.com) in a new tab and star the project by clicking the button on the top right that looks like this:
 
 ![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/media/14925122494367/14925126851151.jpg)
@@ -48,16 +49,19 @@ For beginners, let us use GitHub Desktop (which is a graphic user interface of g
 1. Open the link: https://desktop.github.com/ and click the download button. The website should provide the correct version for you, but if not, make sure that you are downloading the correct version (i.e. if you are macOS users, do not download the Windows version.)
 
 2. Properly install the thing you have downloaded. If you need help, please reach out to us.
+
 3. Login your GitHub account. 
 
 ### 2) Cloning a Repository
 
-1. Click on "+", "Clone", select the repository you just created in Part I, which has the name of <YOUR USERNAME>.github.io
+1. Click on "+", "Clone", select the repository you just created in Part I.
 ![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/media/14925122494367/14925196569487.jpg)
 Note: By cloning a repository, you have created a mirror (or downloaded) that repository to your local environment (in this case, your computer), so that later you can edit your code on your computer and commit (sync the changes) to your repository.
 
 2. Click "Clone <REPOSITORY NAME>" at the bottom right.
+
 3. Choose a local path that you would like to store your repo.
+
 4. Wait a few seconds and you are done! You should see something like this when GitHub is cloning.
 
 ![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/media/14925122494367/14925199399896.jpg)
