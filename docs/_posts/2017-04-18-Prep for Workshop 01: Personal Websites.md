@@ -1,5 +1,3 @@
-Hack Club BNDS
-Workshop 01: Personal Websites
 # Preparation Material
 
 
