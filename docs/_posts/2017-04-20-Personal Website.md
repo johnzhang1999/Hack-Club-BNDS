@@ -1,4 +1,6 @@
 # Personal Website
+Author: Hack Club San Francisco
+Modified by John
 
 _**We recommend going through this workshop in Google Chrome.**_
 
@@ -6,7 +8,7 @@ Prophet Orpheus, [our mascot](https://github.com/hackclub/dinosaurs/blob/master/
 
 It will look something like this:
 
-![](img/final_screenshot.png)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/img/final_screenshot.png)
 
 Here's the [live demo][final_live_demo] and [final code][final_code] (see `index.html` and `styles.css`).
 
@@ -17,91 +19,27 @@ This workshop should take around 45 minutes.
 
 **Table of contents:**
 
-- [Part I: Setup](#part-i-setup)
+~~- [Part I: Setup](#part-i-setup)~~ We have finished this part!
 - [Part II: The HTML File](#part-ii-the-html-file)
 - [Part III: The CSS File](#part-iii-the-css-file)
 - [Part IV: Publishing](#part-iv-publishing)
 - [Part V: Hacking](#part-v-hacking)
 - [Part VI: Sharing with the Community](#part-vi-sharing-with-the-community)
 
+
 ## Part I: Setup
-
-### 1) Signing Up for GitHub
-
-_If you already have a GitHub account, skip to step 3 of [Signing Up for GitHub](#1-signing-up-for-github)._
-
-GitHub is a website used by millions of programmers to collaborate on code. We'll be using it to store and manage our code in Hack Club.
-
-1. Open https://github.com/join in a new tab and fill in:
-  - your username (if you can't decide on one, your first and last name are a solid choice)
-  - email (you'll be verifying your email in the next step)
-  - password (you'll need to remember this!)
-2. Verify your email by checking the inbox of the email you used
-3. Open https://gh.hackclub.com in a new tab and star the project by clicking the button on the top right that looks like this: ![](img/github_star.png)
-
-_Pro tip: if you want a username that's already taken, you can often get it by [contacting GitHub](https://github.com/contact) (this is actually how we got the `hackclub` username on GitHub). Make sure that the username isn't actively used by another user before reaching out. [Click here](https://help.github.com/articles/name-squatting-policy/) for more details._
-
-### 2) Creating Your First GitHub Repository
-
-GitHub allows us to host our website using a service called GitHub Pages. This means that we can put the files of our website on GitHub and GitHub will give us a URL that we can share with the world.  
-
-1. Go to https://github.com/new
-
-2. Under "Repository name" write `USERNAME.github.io` (replace `USERNAME` with your actual username). You have to name your repository this in order for GitHub Pages to work correctly (we'll talk more about GitHub Pages later)
-
-   > ![](img/gh_create_new_repo.png)
-
-3. Yay! You've created your very first repository! Now, copy the "HTTPS link" at the top. You will need this link for the next step.
-
-   > ![](img/gh_copy_link.gif)
-
-### 3) Signing Up for Cloud9
-
-We'll be using a service called Cloud9 to write, save, and organize all the code we'll write in Hack Club.
-
-1. In a new tab, open https://new.hackclub.com/cloud9_setup and enter your email to get an invite.
-
-   > ![](img/c9_setup_email.png)
-
-2. You'll get an invitation to join Hack Club on Cloud9 in your inbox. Click the link in the invite and you'll see this screen:.
-
-   > ![](img/c9_start_signup.png)
-
-   You should end up with a screen that looks like this:
-
-   > ![](img/c9_dashboard.png)
-
-3. Click the gray box that says "Create a new workspace".
-
-   > ![](img/c9_create_new_workspace_button.gif)
-
-4. Set the "Workspace name" to `projects`.
-
-   > ![](img/c9_name_workspace.png)
-
-5. Under "Clone from Git or Mercurial URL", paste the HTTPS Link that you copied from your GitHub repository.
-
-   > ![](img/c9_clone_from_existing.png)
-
-6. Click the green "Create Workspace" button at the bottom.
-
-You should now see a screen looks something like this:
-
-![](img/c9_ide_loaded.png)
-
-Congratulations, you've officially set up all of your coding tools for the semester!
-
-Now we're ready to start the website!
-
+You should have finished this part. If not, please refer to the preparation mateiral.
 ## Part II: The HTML File
 
 ### 1) Creating the HTML file
 
-We'll start by making an `index.html` file. Right click the `projects` folder in the left sidebar, select "New File," and name the file `index.html`.
+We'll start by making an `index.html` file. 
 
-![](img/c9_create_index_html.gif)
+First, we need somewhere to put our code upon. For this time, we use an online coding environment called [CodePen](https://codepen.io/)! https://codepen.io Because it's online so that you do not need to download anything. Fast and simple! We will start using something called IDE next time. It's more useful in real developing conditions, but it takes about several hundred MBs.
 
-Now we'll add the basic HTML template. Double-click on `index.html` and **type** the following. **DO NOT COPY AND PASTE**.
+So now, click on the Codepen top right "Create" --> "New Pen", or directly open this link: [https://codepen.io/pen](https://codepen.io/pen)
+
+Now we'll add the basic HTML template. Click on the HTML column to get focus and **type** the following. **DO NOT COPY AND PASTE**.
 
 ```html
 <!DOCTYPE html>
@@ -119,15 +57,7 @@ Before proceeding, we'll briefly go over what this template means. HTML works by
 
 ### 2) Previewing the Page
 
-Let's check out what our HTML file looks like in Live Preview! First, we'll save the file by clicking "File" → "Save" (or use the shortcut <kbd>Ctrl+s</kbd> / <kbd>Command+s</kbd>). You'll need to do this each time you want to view he preview of your project. Then, you can preview what the website looks like by clicking "Preview" → "Live Preview File"
-
-![](img/c9_live_preview.gif)
-
-You can also open the external live preview by clicking the icon that looks like a box with an arrow. This will open live preview in a new tab, at a temporary URL.
-
-![](img/c9_external_prev.gif)
-
-As you can see, the page is blank. This is because we haven't added anything to the `body` section yet. Let's add some content!
+Let's check out what our HTML file looks like in Live Preview! 
 
 ### 3) Adding Text to the Body
 
@@ -193,24 +123,11 @@ Go ahead and add this into your `index.html` now. I put my picture before my hea
 </html>
 ```
 
-![](img/c9_index_html.png)
-
 Remember, you need to save your work every time you make a change --- otherwise you won't be able to see it!
 
 Hurray! You've created a basic HTML page! Let's save our progress with git!
 
-We're going to be using a terminal to do this, but you might know it as that-thing-hackers-use-in-movie.
 
-![](img/c9_command_line.gif)
-
-Using the terminal allows us to do things on computers which you can't usually do with a standard graphical user interface. We don't expect you to be a terminal master by the end of this tutorial, but with this initial exposure hopefully you'll be able to continue learning more about it over time!
-
-In Cloud9, press <kbd>Alt + t</kbd> (<kbd>option + t</kbd> on Mac) on the keyboard. This is how we open the terminal on Cloud9. In this case, we're going to save the work we've done so far, using git. Type in the following commands:
-
-- `git add --all` (then press <kbd>enter</kbd>)
-- `git commit -m "Create personal website"` (then press <kbd>enter</kbd>)
-
-Now, if you type `git log`, you'll be able to see your first commit! Think of git as a way to save your project in stages, much like how a game allows you to save different versions and go back.
 
 Though we've made a commit and saved our changes, we're not done. Our webpage is fully functional, but needs a little help in the look-and-feel department. Fret not. CSS will allow you to manipulate the styling of your page in all your needs.
 
@@ -222,13 +139,13 @@ While HTML oversees the content and the way it's structured, CSS is how you'll s
 
 ### 1) Creating the CSS File
 
-We'll now make an `styles.css` file. Right click the `projects` folder, select "New File," and name the file `styles.css`.
-
-![](img/c9_create_styles_css.gif)
+We'll now make an `styles.css` file.  Click on the CSS column to get focus.
 
 This is called an external style sheet because the CSS file is external to the HTML file (i.e., the stylesheet is not inside the HTML file).
 
 ### 2) Linking the CSS file to the HTML file
+
+**In this case, Codepen automatically does this for us. But we still need to know this because GitHub will not do this for us!**
 
 Although we've created a CSS file, until we explicitly tell the HTML file to use the CSS file, it will not use it. We must explicitly link the CSS file in the HTML. We'll do this by typing the following into the head of `index.html` (between `<head>` and `</head>`), because the head is where we tell information about the page to the browser.
 
@@ -296,29 +213,21 @@ body {
 
 Here is the transformation that your stylesheet will have undergone at the end of your endeavors:
 
-![](img/c9_css_progression.gif)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/img/c9_css_progression.gif)
 
 Now let's save and look at our work. Ah, it is truly beautiful to behold. Now let's commit the changes.
 
-Remember to save both `index.html` and `styles.css`! We'll once again use the terminal in Cloud9 to persist our changes with git.
-- `git add --all` (then press <kbd>enter</kbd>)
-- `git commit -m "Add styling to personal website"` (then press <kbd>enter</kbd>)
+Remember to save both `index.html` and `styles.css`! 
 
-![](img/celebrate_harry_potter.gif)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/img/celebrate_harry_potter.gif)
 
 ## Part IV: Publishing
 
-Right now we can only see our website on our own computer. Let's get our website online!
-
-1. In the Cloud9 terminal, we'll push our commits to our GitHub repository:
-  - `git push` (then press <kbd>enter</kbd>)
-    - Enter your GitHub username (then press <kbd>enter</kbd>).
-    - Enter your GitHub password (then press <kbd>enter</kbd>). _The characters won't show up on the screen, but rest assured, they are still being typed._
-2. Now try to view the website by going to `USERNAME.github.io` (replace `USERNAME` with your actual GitHub username)
+This part is a little bit complicated for us, because this time we are not using an IDE and we need to publish these on GitHub. So I will demonstrate this part.
 
 #### Celebrate!
 
-![](img/celebrate_rush_hour.gif)
+![](https://raw.githubusercontent.com/johnzhang1999/Hack-Club-BNDS/master/docs/_posts/img/celebrate_rush_hour.gif)
 
 Yes! Your website is now public on the internet!
 
@@ -360,10 +269,5 @@ These are some additional resources that you can use to make your site even bett
 
 Now that you have finished building a website, you should share your beautiful creation --- because your site is on the internet, you can share it with anyone who is also online! Remember, it's as easy as giving them your URL: `USERNAME.github.io`!
 
-You probably know the best ways to get in touch with your friends and family, but if you want to share your project with the world wide Hack Club community there is no better place to do that than on Slack.
 
-1. In a new tab, open and follow [these directions][slack] to signup for our Slack.
-2. Join your club's channel by asking your club leader for the name of the channel, and post the link to your website in your club's channel.
-3. Then, post the link to the [`#shipit`](https://hackclub.slack.com/messages/shipit) channel to share it with everyone!
 
-[slack]: https://slack.hackclub.com/
